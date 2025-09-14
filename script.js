@@ -179,7 +179,7 @@ function mainloop(){
         
     }
 
-    if((devicePixelRatio !== 1.5) || (devicePixelRatio !== 1.75)){running = false;}
+    if((devicePixelRatio !== 1.5) || (devicePixelRatio !== 1.75) || (devicePixelRatio !== 1)){running = false;}
 
     if(!running){
         gameOver();
@@ -211,4 +211,5 @@ gameOver_.classList = "e";
 gameOver_.onclick = start.onclick;
 
 container.appendChild(gameOver_);
+
 
