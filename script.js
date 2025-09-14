@@ -89,7 +89,7 @@ try{
 
 start.hidden = true;
 const star = document.createElement("img");
-star.src = "imgs/star.png";
+star.src = "imgs/Star.png";
 star.id = "star";
 star.classList = "e";
 container.appendChild(star);
@@ -209,4 +209,5 @@ gameOver_.innerText = "Game Over, Click here to start again";
 gameOver_.id = "gameOver";
 gameOver_.classList = "e";
 gameOver_.onclick = start.onclick;
+
 container.appendChild(gameOver_);
