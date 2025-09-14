@@ -1,0 +1,84 @@
+.e{
+    transform: translate(-50%, -50%);
+}
+
+#er{
+    position: absolute;
+    left: 50%;
+    top: 70%;
+}
+
+#notAllowed{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+#container{
+    border: 3px solid;
+    height: 50%;
+    width: 80%;
+    background-color: #ffffff;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#start{
+    background-color: lime;
+    font-size: 3em;
+    cursor: pointer;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#star{
+    position: absolute;
+    left: 10%;
+    top: 90%;
+}
+
+@keyframes jump{
+    0%{top: 90%;}
+    50%{top: 40%;}
+    100%{top: 90%;}
+}
+
+#score{
+    text-align: center;
+    font-size: 200%;
+
+    position: absolute;
+    left: 80%;
+    top: 10%;
+}
+
+#gameOver{
+    cursor: pointer;
+
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+
+
+#reason{
+    text-align: center;
+    font-size: 150%;
+    cursor: help;
+
+    position: absolute;
+    left: 23%;
+    top: 100%;
+}
+
+#gitHub{
+    cursor: pointer;
+
+    position: absolute;
+    left: 50%;
+    top: 100%;
+}
